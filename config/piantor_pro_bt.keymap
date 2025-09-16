@@ -89,7 +89,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&bt BT_SEL 0  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_SEL 1  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &bt BT_SEL 2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &kp DOWN_ARROW  &trans  &trans  &trans
+&bt BT_SEL 0  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_SEL 1  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &bt BT_SEL 2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans &kp DOWN_ARROW &trans  &trans
             >;
         };
 
