@@ -18,12 +18,12 @@
         compatible = "zmk,combos";
 
         spc {
-            bindings = <&kp RC(SPACE)>;
+            bindings = <&kp SPACE>;
             key-positions = <16 15>;
         };
 
         bks {
-            bindings = <&kt BACKSPACE>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <19 20>;
         };
 
@@ -33,17 +33,17 @@
         };
 
         accento {
-            bindings = <&kt SINGLE_QUOTE>;
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <31 32>;
         };
 
         tab {
-            bindings = <&kt TAB>;
+            bindings = <&kp TAB>;
             key-positions = <28 29>;
         };
 
         maiusc {
-            bindings = <&kt CAPSLOCK>;
+            bindings = <&caps_word>;
             key-positions = <30 31>;
         };
     };
@@ -61,7 +61,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&kp LEFT_PARENTHESIS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp AT  &kp RIGHT_PARENTHESIS  &kp A  &kp S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &kp L  &kp P  &kp F4  &tog 2  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &caps_word  &kp LGUI  &kp ESCAPE  &lt 2 ENTER  &mo 1  &mo 3  &kp RALT
+&kp LEFT_PARENTHESIS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp AT  &kp RIGHT_PARENTHESIS  &kp A  &kp S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &kp L  &kp P  &kp F4  &tog 2  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp CAPSLOCK  &kp LGUI  &kp ESCAPE  &lt 2 ENTER  &mo 1  &mo 3  &kp RALT
             >;
         };
 
