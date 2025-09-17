@@ -94,7 +94,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &none  &none  &none  &none  &none  &none  &trans  &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none  &PASSPC  &passfirma  &none  &none  &none  &trans  &kp PERCENT  &kp N1  &kp N2  &kp NUMBER_3  &kp EQUAL  &none  &none  &none  &none  &none  &none  &trans  &kp COMMA  &mt RETURN NUMBER_0  &trans  &trans  &trans
+&trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &none  &none  &none  &none  &none  &none  &trans  &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none  &none  &none  &none  &none  &none  &trans  &kp PERCENT  &kp N1  &kp N2  &kp NUMBER_3  &kp EQUAL  &none  &none  &none  &none  &none  &none  &trans  &kp COMMA  &mt RETURN NUMBER_0  &trans  &trans  &trans
             >;
         };
 
@@ -108,7 +108,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&none  &none  &none  &none  &none  &none  &kp UNDERSCORE  &kp AMPERSAND  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
+&none  &none  &none  &none  &none  &none  &kp UNDERSCORE  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp BACKSLASH  &PASSPC  &none  &none  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &kp DOLLAR  &kp POUND  &kt LBRC  &kt RIGHT_BRACE  &passfirma  &none  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
             >;
         };
 
