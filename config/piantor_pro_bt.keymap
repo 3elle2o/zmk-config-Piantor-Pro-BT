@@ -4,13 +4,12 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
 / {
@@ -109,7 +108,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
+&none  &none  &none  &none  &none  &none  &kp UNDERSCORE  &kp AMPERSAND  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
             >;
         };
 
