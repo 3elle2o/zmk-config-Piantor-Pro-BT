@@ -48,6 +48,22 @@
         };
     };
 
+    macros {
+        PASSPC: PASSPC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp A &kp T &kp T &kp I &kp A &kp L &kp O>;
+            label = "PASSPC";
+        };
+
+        passfirma: passfirma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N7 &kp N3 &kp N0 &kp N0 &kp N2 &kp N0 &kp N9 &kp N9>;
+            label = "PASSFIRMA";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -61,7 +77,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&kp LEFT_PARENTHESIS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp AT  &kp RIGHT_PARENTHESIS  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_WIN P  &kp F4  &mo 1  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp CAPSLOCK  &kp LGUI  &kp ESCAPE  &lt 2 ENTER  &mo 1  &mo 3  &kp RALT
+&kp LEFT_PARENTHESIS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp AT  &kp RIGHT_PARENTHESIS  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_WIN P  &kp F4  &sl 1  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp CAPSLOCK  &kp BACKSPACE  &kp ESCAPE  &lt 2 ENTER  &mo 1  &mo 3  &bt BT_NXT
             >;
         };
 
@@ -75,7 +91,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &none  &none  &none  &none  &none  &none  &trans  &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none  &none  &none  &none  &none  &none  &trans  &kp PERCENT  &kp N1  &kp N2  &kp NUMBER_3  &kp EQUAL  &none  &none  &none  &none  &none  &none  &trans  &kp COMMA  &mt RETURN NUMBER_0  &trans  &trans  &trans
+&trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &none  &none  &none  &none  &none  &none  &trans  &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none  &PASSPC  &passfirma  &none  &none  &none  &trans  &kp PERCENT  &kp N1  &kp N2  &kp NUMBER_3  &kp EQUAL  &none  &none  &none  &none  &none  &none  &trans  &kp COMMA  &mt RETURN NUMBER_0  &trans  &trans  &trans
             >;
         };
 
@@ -89,7 +105,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&bt BT_SEL 0  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_SEL 1  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &bt BT_SEL 2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
             >;
         };
 
