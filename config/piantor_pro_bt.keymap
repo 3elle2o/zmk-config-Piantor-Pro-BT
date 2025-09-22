@@ -80,7 +80,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&kp LEFT_PARENTHESIS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp AT  &kp RIGHT_PARENTHESIS  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_WIN P  &kp F4  &sl 1  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &sk CAPSLOCK  &kp BACKSPACE  &kp ESCAPE  &lt 2 ENTER  &mo 1  &mo 3  &mo 4
+&kp LEFT_PARENTHESIS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp AT  &kp RIGHT_PARENTHESIS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &kp L  &mt P P  &kp F4  &sl 1  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &sk CAPSLOCK  &kp BACKSPACE  &kp ESCAPE  &lt 2 ENTER  &mo 1  &mo 3  &mo 4
             >;
         };
 
@@ -94,7 +94,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &none  &none  &none  &none  &none  &none  &trans  &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none  &none  &none  &none  &none  &none  &trans  &kp PERCENT  &kp N1  &kp N2  &kp NUMBER_3  &kp EQUAL  &none  &none  &none  &none  &none  &none  &trans  &kp COMMA  &mt RETURN NUMBER_0  &trans  &trans  &trans
+&trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &none  &none  &none  &none  &none  &none  &trans  &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT  &sk RIGHT_WIN  &none  &trans  &kp PERCENT  &kp N1  &kp N2  &kp NUMBER_3  &kp EQUAL  &none  &none  &none  &none  &none  &none  &trans  &kp COMMA  &mt RETURN NUMBER_0  &trans  &trans  &trans
             >;
         };
 
@@ -108,7 +108,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&none  &none  &none  &none  &none  &none  &kp UNDERSCORE  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp BACKSLASH  &PASSPC  &kp PRINTSCREEN  &none  &none  &none  &none  &none  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp K_CALCULATOR  &none  &none  &none  &none  &none  &none  &kp DOLLAR  &kp POUND  &kt LBRC  &kt RIGHT_BRACE  &passfirma  &kp K_PLAY_PAUSE  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
+&none  &none  &none  &none  &none  &none  &kp UNDERSCORE  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp BACKSLASH  &PASSPC  &kp PRINTSCREEN  &none  &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp K_CALCULATOR  &none  &none  &none  &none  &none  &none  &kp DOLLAR  &kp POUND  &kt LBRC  &kt RIGHT_BRACE  &passfirma  &kp K_PLAY_PAUSE  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
             >;
         };
 
