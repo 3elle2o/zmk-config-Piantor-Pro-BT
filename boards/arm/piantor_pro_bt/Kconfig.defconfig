@@ -1,11 +1,11 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_MY_KEYBOARD_DONGLE
+if BOARD_PIANTOR_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
-    default "My Board"
+    default "Piantor Dongle"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
