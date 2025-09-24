@@ -21,7 +21,3 @@ include:
   - board: piantor_pro_bt_right
     shield: settings_reset
     snippet: studio-rpc-usb-uart
-
-  - board: piantor_dongle
-    shield: piantor_dongle
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
