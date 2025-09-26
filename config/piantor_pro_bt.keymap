@@ -53,7 +53,7 @@
 
         default_layer {
             bindings = <
-                &td0
+                &td1
             >;
         };
     };
