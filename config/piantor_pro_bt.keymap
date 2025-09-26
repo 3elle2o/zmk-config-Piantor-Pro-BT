@@ -47,7 +47,7 @@
         };
 
         maiusc {
-            bindings = <&caps_word>;
+            bindings = <&capsword>;
             key-positions = <30 31>;
         };
     };
