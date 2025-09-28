@@ -73,14 +73,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "J";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp J>;
+            bindings = <&sk LEFT_SHIFT>, <&kp J>;
         };
 
         k: k {
             compatible = "zmk,behavior-tap-dance";
             label = "K";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL>, <&kp K>;
+            bindings = <&sk LEFT_CONTROL>, <&kp K>;
         };
 
         dueppev: dueppev {
