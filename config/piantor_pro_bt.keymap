@@ -65,37 +65,58 @@
             bindings = <&kp N7 &kp N3 &kp N0 &kp N0 &kp N2 &kp N0 &kp N9 &kp N9>;
             label = "PASSFIRMA";
         };
+
+        aaccent: aaccent {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp A>;
+            label = "AACCENT";
+        };
+
+        eaccent: eaccent {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp E>;
+            label = "EACCENT";
+        };
+
+        uaccent: uaccent {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp U>;
+            label = "UACCENT";
+        };
+
+        iaccent: iaccent {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp I>;
+            label = "IACCENT";
+        };
+
+        oaccent: oaccent {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp O>;
+            label = "OACCENT";
+        };
+
+        apostrofo: apostrofo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp SPACE>;
+            label = "APOSTROFO";
+        };
+
+        doppioapostrofo: doppioapostrofo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOUBLE_QUOTES &kp SPACE>;
+            label = "DOPPIOAPOSTROFO";
+        };
     };
 
     behaviors {
-        j: j {
-            compatible = "zmk,behavior-tap-dance";
-            label = "J";
-            #binding-cells = <0>;
-            bindings = <&sk LEFT_SHIFT>, <&kp J>;
-        };
-
-        k: k {
-            compatible = "zmk,behavior-tap-dance";
-            label = "K";
-            #binding-cells = <0>;
-            bindings = <&sk LEFT_CONTROL>, <&kp K>;
-        };
-
-        dueppev: dueppev {
-            compatible = "zmk,behavior-tap-dance";
-            label = "DUEPPEV";
-            #binding-cells = <0>;
-            bindings = <&kp COLON>, <&kp SEMICOLON>;
-        };
-
-        esclamainterroga: esclamainterroga {
-            compatible = "zmk,behavior-tap-dance";
-            label = "ESCLAMAINTERROGA";
-            #binding-cells = <0>;
-            bindings = <&kp EXCLAMATION>, <&kt QUESTION>;
-        };
-
         capsword: capsword {
             compatible = "zmk,behavior-caps-word";
             label = "CAPSWORD";
@@ -159,7 +180,7 @@
         extra_layer_2 {
             display-name = "EXTRA 2";
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_SEL 2  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
