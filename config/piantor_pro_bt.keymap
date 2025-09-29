@@ -131,7 +131,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH  &none  &none  &none  &none  &none  &none  &trans  &kp PLUS  &kp N4  &kp N5  &kp N6  &kp MINUS  &none  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT  &sk RIGHT_WIN  &none  &trans  &kp PERCENT  &kp N1  &kp N2  &kp N3  &kp EQUAL  &none  &none  &none  &none  &none  &none  &trans  &kp COMMA  &mt RETURN NUMBER_0  &trans  &trans  &trans
+&trans  &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH  &kp C_PLAY_PAUSE  &bt BT_SEL 0  &none  &none  &none  &none  &trans  &kp PLUS  &kp N4  &kp N5  &kp N6  &kp MINUS  &kp C_VOLUME_UP  &bt BT_SEL 1  &none  &none  &none  &none  &trans  &kp PERCENT  &kp N1  &kp N2  &kp N3  &kp EQUAL  &kp C_VOL_DN  &bt BT_SEL 2  &none  &none  &none  &none  &trans  &kp COMMA  &mt RETURN NUMBER_0  &trans  &trans  &trans
             >;
         };
 
@@ -145,7 +145,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&none  &none  &none  &none  &none  &none  &kp UNDERSCORE  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp BACKSLASH  &PASSPC  &kp PRINTSCREEN  &none  &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp K_CALCULATOR  &none  &none  &none  &none  &none  &none  &kp DOLLAR  &kp POUND  &kt LBRC  &kt RIGHT_BRACE  &passfirma  &kp K_PLAY_PAUSE  &trans  &trans  &trans  &kp DOWN_ARROW  &kp AT_SIGN  &kp F4
+&none  &kp AMPERSAND  &kp BACKSLASH  &kp DOLLAR  &kp POUND  &kp LEFT_BRACE  &none  &none  &none  &none  &none  &none  &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT  &kt RIGHT_BRACE  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &none  &kp PRINTSCREEN  &passfirma  &PASSPC  &kp F4  &kp K_CALCULATOR  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
             >;
         };
 
@@ -159,7 +159,7 @@
         extra_layer_2 {
             display-name = "EXTRA 2";
             bindings = <
-&kt C_PLAY_PAUSE  &none  &trans  &trans  &trans  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &none  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_SEL 2  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
