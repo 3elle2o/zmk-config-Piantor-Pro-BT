@@ -167,7 +167,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&none  &kp AMPERSAND  &kp BACKSLASH  &kp DOLLAR  &kp POUND  &kp LEFT_BRACE  &none  &none  &none  &none  &none  &none  &none  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT  &kt RIGHT_BRACE  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &none  &kp PRINTSCREEN  &passfirma  &PASSPC  &kp F4  &kp K_CALCULATOR  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
+&trans  &kp AMPERSAND  &kp BACKSLASH  &kp DOLLAR  &kp POUND  &kp LEFT_BRACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT  &kt RIGHT_BRACE  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans  &trans  &kp PRINTSCREEN  &passfirma  &PASSPC  &kp F4  &kp K_CALCULATOR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
             >;
         };
 
