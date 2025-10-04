@@ -118,6 +118,14 @@
         };
     };
 
+        zip_temp_layer: zip_temp_layer {
+            compatible = "zmk,behavior-layer-toggle";
+            label = "ZIP TEMP";
+            #binding-cells = <0>;
+            layer = <NUMWORD>;
+        };
+    };
+
     behaviors {
         capsword: capsword {
             compatible = "zmk,behavior-caps-word";
