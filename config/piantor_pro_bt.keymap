@@ -126,18 +126,6 @@
         };
     };
 
-
-    behaviors {
-        nav_word: nav_word {
-            compatible = "zmk,behavior-auto-layer";
-            label = "naviga";
-            #binding-cells = <1>;
-            continue-list = <AMPERSAND BACKSLASH DOLLAR POUND LEFT_BRACE UNDERSCORE LEFT_PARENTHESIS RIGHT_PARENTHESIS AT RIGHT_BRACE PG_UP LEFT_ARROW UP_ARROW RIGHT_ARROW PAGE_DOWN PRINTSCREEN  &PASSPC F4 K_CALCULATOR DOWN_ARROW;
-            ignore-modifiers;
-        };
-    };
-
-
     keymap {
         compatible = "zmk,keymap";
 
