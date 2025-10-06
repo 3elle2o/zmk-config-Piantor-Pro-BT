@@ -42,3 +42,6 @@ CONFIG_ZMK_POINTING=y
 
 # Windows Battery Reporting Fix
 CONFIG_BT_GATT_ENFORCE_SUBSCRIPTION=n
+
+# Improved connection stability
+CONFIG_ZMK_BLE_EXPERIMENTAL_CONN=y
