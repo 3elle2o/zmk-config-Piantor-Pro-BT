@@ -125,6 +125,20 @@
             #binding-cells = <0>;
             continue-list = <DELETE BACKSPACE>;
         };
+
+        PARENTESI12: PARENTESI12 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "PARENTESI12";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+        };
+
+        P1P2: P1P2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "P1P2";
+            #binding-cells = <0>;
+            bindings = <&PASSPC>, <&passfirma>;
+        };
     };
 
     keymap {
@@ -140,7 +154,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&sk LSHIFT  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &mt SEMICOLON COLON  &sk LEFT_SHIFT  &sk RIGHT_CONTROL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp P  &sk RIGHT_CONTROL  &sk LGUI  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &mt QUESTION EXCLAMATION  &sk LEFT_ALT  &num_word 1  &kp ESC  &lt 2 ENTER  &sl 4  &mo 3  &sk LCTRL
+&PARENTESI12  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &mt SEMICOLON COLON  &kp PRINTSCREEN  &kp AT  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp P  &kp C_PLAY_PAUSE  &kp F4  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &mt QUESTION EXCLAMATION  &P1P2  &num_word 1  &kp ESC  &lt 2 ENTER  &sl 4  &kp LEFT_CONTROL  &mo 3
             >;
         };
 
@@ -154,7 +168,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH  &kp C_PLAY_PAUSE  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &kp PLUS  &kp N4  &kp N5  &kp N6  &kp MINUS  &kp C_VOLUME_UP  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans  &kp PERCENT  &kp N1  &kp N2  &kp N3  &kp EQUAL  &kp C_VOL_DN  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &kp COMMA  &kp N0  &kp RETURN  &trans  &trans  &trans
+&trans  &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH  &trans  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &kp PLUS  &kp N4  &kp N5  &kp N6  &kp MINUS  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans  &kp PERCENT  &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &kp COMMA  &kp N0  &kp RETURN  &trans  &trans  &trans
             >;
         };
 
@@ -168,7 +182,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&trans  &kp AMPERSAND  &kp BACKSLASH  &kp DOLLAR  &kp POUND  &kp LEFT_BRACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT  &kt RIGHT_BRACE  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans  &trans  &kp PRINTSCREEN  &passfirma  &PASSPC  &kp F4  &kp K_CALCULATOR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
+&kp LEFT_BRACE  &kp AMPERSAND  &kp BACKSLASH  &kp DOLLAR  &kp POUND  &kp UNDERSCORE  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_BRACE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans
             >;
         };
 
