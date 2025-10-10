@@ -130,7 +130,7 @@
         mouse: mouse {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <0>;
-            layers = <3>; // Use the actual index of the 'mouse' layer here
+            layers = <4>; // Use the actual index of the 'mouse' layer here
             continue-list = <SCRL_UP MOVE_LEFT MOVE_UP MOVE_RIGHT LCLK MCLK MB2 SCRL_LEFT SCRL_DOWN SCRL_RIGHT MOVE_DOWN>;
         };
     
