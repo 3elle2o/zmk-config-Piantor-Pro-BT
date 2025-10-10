@@ -126,6 +126,14 @@
             continue-list = <DELETE BACKSPACE>;
         };
 
+    behaviors {
+        mouse: mouse {
+            compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <0>;
+            layers = <mouse>; // Replace mouse by index of numbers layer
+            continue-list = <SCRL_UP MOVE_LEFT MOVE_UP MOVE_RIGHT LCLK MCLK MB2 SCRL_LEFT SCRL_DOWN SCRL_RIGHT MOVE_DOWN>;
+        };
+    
         PARENTESI12: PARENTESI12 {
             compatible = "zmk,behavior-tap-dance";
             label = "PARENTESI12";
