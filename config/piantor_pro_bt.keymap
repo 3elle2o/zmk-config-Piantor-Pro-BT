@@ -164,7 +164,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&kp F4  &kp Q  &kp W  &kp E  &kp R  &kp T  &lt 1 Y  &kp U  &kp I  &kp O  &mt SEMICOLON COLON  &Pas  &kp AT_SIGN  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp P  &mo 3  &parentesi  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &mt QUESTION EXCLAMATION  &kp K_PP  &num_word 1  &kp ESC  &lt 2 ENTER  &sl 4  &kp LEFT_CONTROL  &tog 3
+&kp F4  &kp Q  &kp W  &kp E  &kp R  &kp T  &lt 1 Y  &kp U  &kp I  &kp O  &mt SEMICOLON COLON  &Pas  &kp AT_SIGN  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp P  &mo 3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &mt QUESTION EXCLAMATION  &kp K_PP  &num_word 1  &kp ESC  &lt 2 ENTER  &sl 4  &kp LEFT_CONTROL  &tog 3
             >;
         };
 
